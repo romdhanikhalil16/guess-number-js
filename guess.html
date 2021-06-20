@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="guess.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button class="btn-again" >Again</button>
+    <h4 class="guide" >(between 1 and 20)</h4>
+    <div class="guide-block" >
+        <p>Dear player this game allow you to guess a random number between 1 and 20 hidden with '?' 
+            mark your chances are limited by 20 time every try and your 'highscore' will be saved bellow.<br> if your 
+        chances are over you can try again just click on 'again' button above so here we go don't miss the chance and 
+    be the one who hold the high score <br>Good Luck   </p>
+    </div>
+    <main class="main" >
+    <h1 class="p">guess my number</h1><hr>
+    <div class="number-hidden" ></div>
+    
+    <p style="font-size: 22px;" class="start-guessing" >start-guessing : </p><br>
+    <div >
+        
+        <input type="text" value="?" class="real-number">
+    </div> 
+
+    <input  placeholder="00" type="number"   class="number">
+
+    <div class="bloc" >
+       
+        <div>  score : <span style="color: rgba(151, 149, 12, 0.863);" class="score"> 20 </span> </div>
+        <div>highscore : <span style="color: rgba(151, 149, 12, 0.863);" class="highscore" >0</span> </div>
+    </div><br>
+    
+    <input type="button"  class="btn-check" value="check !">
+</main>
+</body>
+</html>
+<script src="guess.js" ></script> 

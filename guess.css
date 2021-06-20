@@ -1,0 +1,87 @@
+body{
+    background: black;
+    color: white;
+    font-family:Blippo;
+    
+}
+*{
+    font-weight: bold;
+    font-family:Press Start 5p;
+   
+}
+.btn-again{
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 80px;
+    border-radius: 12px;
+    color:  tomato;
+}
+.btn-check{
+    width: 140px;
+    height: 45px;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 12px;
+    position: relative;
+    top: -153px;
+    left: 46px;
+}
+h4{
+    float: right;
+    font-size: 20px;
+}
+.p{
+    text-align: center;
+    font-size: 40px;
+    color: teal;
+}
+
+input[type=number].number{
+    width: 150px;
+    height: 70px;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    position: relative;
+    top: -100px;
+}
+.bloc{
+    font-size: 27px;
+    position: relative;
+    left: 467px;
+    bottom: 79px;
+    text-decoration: underline;
+}
+hr{
+    border: 7px solid red;
+}
+.real-number{
+    font-size: 60px;
+    text-align: center;
+    height: 88px;
+    width: 190px;
+    position: relative;
+    top: -65px;
+    left: 550px;
+}
+.guide-block{
+    border: 1px solid white;
+    height: 108px;
+    width: 902px;
+    text-align: center;
+    font-size: 17px;
+    padding: 11px;
+    position: relative;
+    bottom: 50px;
+    left: 200px;
+}
+.guide{
+    font-size: 25px;
+}
+
+.main{
+    position: relative;
+    bottom: 64px;
+}
